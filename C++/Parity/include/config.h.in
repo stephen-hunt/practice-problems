@@ -1,0 +1,2 @@
+#define Parity_VERSION_MAJOR @Parity_VERSION_MAJOR@
+#define Parity_VERSION_MINOR @Parity_VERSION_MINOR@
