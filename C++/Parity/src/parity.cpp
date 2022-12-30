@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "config.h"
+#include "config.hpp"
 
 int main () {
     std::cout << "Version " << Parity_VERSION_MAJOR << "." << Parity_VERSION_MINOR << std::endl;
