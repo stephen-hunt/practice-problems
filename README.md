@@ -1,2 +1,2 @@
-# practice-problems
+# Practice Problems
 For general software development practice
