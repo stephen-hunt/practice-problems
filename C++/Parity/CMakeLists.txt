@@ -15,3 +15,11 @@ set(PARITY_SRCS ${Parity_SOURCE_DIR}/src/parity.cpp)
 add_executable(parity ${PARITY_SRCS})
 
 target_include_directories(parity PUBLIC "${CMAKE_SOURCE_DIR}/include")
+
+file(GLOB TEST_SRCS tests/*.cpp src/*.cpp)
+list(REMOVE_ITEM TEST_SRCS "${CMAKE_SOURCE_DIR}/src/parity.cpp")
+message(STATUS "${TEST_SRCS}")
+find_package(Catch2 REQUIRED)
+add_executable(parity_test ${TEST_SRCS})
+target_link_libraries(parity_test Catch2::Catch2WithMain)
+target_include_directories(parity_test PUBLIC "${CMAKE_SOURCE_DIR}/include")
