@@ -2,4 +2,7 @@
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.configureOnOpen": true,
     "testMate.cpp.test.executables": "./**/{build,Build,BUILD,out,Out,OUT,bin}/**/*{test,Test,TEST}*",
+    "files.associations": {
+        "iostream": "cpp"
+    },
 }
