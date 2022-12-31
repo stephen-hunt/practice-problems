@@ -1,4 +1,4 @@
 class IsTrue {
-    public:
-        bool isTrue();
+public:
+	bool isTrue();
 };

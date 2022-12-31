@@ -2,7 +2,7 @@
 
 #include "IsTrue.hpp"
 
-TEST_CASE( "Is True", "[is true]" ) {
-    IsTrue isTrue;
-    REQUIRE(isTrue.isTrue() == true);
+TEST_CASE("Is True", "[is true]") {
+	IsTrue isTrue;
+	REQUIRE(isTrue.isTrue() == true);
 }
