@@ -1,0 +1,2 @@
+#define SwapBits_VERSION_MAJOR @SwapBits_VERSION_MAJOR@
+#define SwapBits_VERSION_MINOR @SwapBits_VERSION_MINOR@

@@ -11,5 +11,16 @@
         "environment": [],
         "console": "integratedTerminal"
       },
+      {
+        "name": "SwapBits (Windows) Launch",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/bin/Debug/swapbits.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "console": "integratedTerminal"
+      },
     ]
 }
