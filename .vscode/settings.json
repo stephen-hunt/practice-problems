@@ -6,4 +6,7 @@
         "iostream": "cpp",
         "*.in": "cpp"
     },
+    "[cpp]": {
+        "editor.formatOnSave": true
+    }
 }
